@@ -47,31 +47,7 @@ class MainActivity : AppCompatActivity() {
                 }
             }
 
-            /*CoroutineScope(Dispatchers.IO).launch{
-          val data =   api.accuRetrofit.get5DayData("Iu043mNAqFTJ7SX5115XfRKuKUv9z4lO","true")
-            val data2 = api.eBirdRetrofit.getBirdData("-25.731340","28.218370","fcj0sukk3qm4")
-           if(data.isSuccessful){
-                launch(Dispatchers.Main) {
-                    findViewById<TextView>(R.id.text).text = data.body().toString()
-                }
-            }
-            else{
-                Log.v("accu",data.code().toString())
-            }
 
-
-
-
-            if(data2.isSuccessful){
-                launch(Dispatchers.Main) {
-                    findViewById<TextView>(R.id.text).text = data2.body().toString()
-                }
-            }
-            else{
-                Log.v("ebird",data2.code().toString())
-            }
-
-        }*/
 
 
         }
