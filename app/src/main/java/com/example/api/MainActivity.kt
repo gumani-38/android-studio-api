@@ -41,7 +41,7 @@ class MainActivity : AppCompatActivity() {
                             findViewById<TextView>(R.id.text).text = data.body().toString()
                         }
                     } else {
-                        Log.v("accu", data.code().toString())
+                        Log.v("ebird", data.code().toString())
                     }
 
                 }
