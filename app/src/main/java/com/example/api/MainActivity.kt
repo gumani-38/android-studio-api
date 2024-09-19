@@ -12,10 +12,11 @@ import kotlinx.coroutines.launch
 class MainActivity : AppCompatActivity() {
     private lateinit var btnAccu: Button
     private lateinit var btnEbird: Button
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
+        val MAPBOX_TOKEN = "sk.eyJ1IjoiZ3VtYW5pMjgiLCJhIjoiY20xOWJlb3c3MWVwcTJrcjQ0aTZlbWRmdyJ9.D-7qHMdkkGX4tvYARe3hdw"
         btnAccu = findViewById(R.id.btnAccu)
         btnEbird = findViewById(R.id.btnEbird)
 
